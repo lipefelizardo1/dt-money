@@ -1,0 +1,35 @@
+
+# Dependências
+**/node_modules/
+
+# Variáveis de ambiente
+**/.env
+**/.env.*
+!**/.env.example
+
+# Expo
+**/.expo/
+**/dist/
+**/web-build/
+
+# Arquivos temporários
+**/tmp/
+**/temp/
+
+# Bancos de dados
+**/database.sqlite
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Android e iOS gerados pelo Expo
+/frontend/android/
+/frontend/ios/
+
+# Configurações locais e arquivos auxiliares
+**/.vscode/
+**/AGENTS.md
